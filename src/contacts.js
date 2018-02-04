@@ -1,6 +1,8 @@
 import React from 'react';
 import App from './App.js';
 import ReactDOM from 'react-dom';
+import {List, ListItem} from 'material-ui/List';
+import Avatar from 'material-ui/Avatar';
 
 const style = {
 	           div1:{
@@ -48,6 +50,13 @@ const style = {
 
 
 class Contacts extends React.Component{
+
+state={
+	contacts:['HPDF','Rahul','Garima','Himanshi','Rishav'],
+	img:['','','','','']
+};
+
+
 	
 handleClick=()=>{
 		ReactDOM.render(<App/>,document.getElementById('root'));
@@ -61,7 +70,16 @@ render(){
 			  <button style={style.button} onClick={this.handleClick}>LOGOUT</button>
          </div>
         <div style={style.div2}>
-		        contacts
+			
+		    <List>
+                  <ListItem primaryText={this.state.contacts[0]}  leftAvatar={<Avatar src={this.state.img[0]} />} />
+                  <ListItem primaryText={this.state.contacts[1]}  leftAvatar={<Avatar src={this.state.img[1]} />} />
+                  <ListItem primaryText={this.state.contacts[2]}  leftAvatar={<Avatar src={this.state.img[2]} />} />
+                  <ListItem primaryText={this.state.contacts[3]}  leftAvatar={<Avatar src={this.state.img[3]} />} />
+				  <ListItem primaryText={this.state.contacts[4]}  leftAvatar={<Avatar src={this.state.img[4]} />} />
+				  
+            </List>
+		   
          </div>		 
 	</div>
    );

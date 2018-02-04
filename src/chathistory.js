@@ -44,7 +44,7 @@ const style={
 				},
 				div3:{
 					width:'100%',
-					height:'90%'
+					height:'90%',
 				},
 				div4:{
 					width:'100%',
@@ -66,11 +66,25 @@ const style={
 		       icon:{
 				     paddingLeft:'15px',
 					 paddingTop:'15px'
+			   },
+			   p1:{
+				   margin:'0px',
+				   fontFamily:'Arial',
+					fontSize:'medium',
+					letterSpacing:'1px',
+					fontWeight:'500',
+					marginLeft:'30px',
+					paddingTop:'10px',
+					paddingBottom:'5px'
 			   }
 
 };
 
 class ChatHistory extends React.Component{
+
+state={
+	message:'Hello!!!'
+};
 
 render(){
 	return(
@@ -81,7 +95,9 @@ render(){
          </div>
         <div style={style.div2}>
 		        <div style={style.div3}>
-			      messages
+                        <p style={style.p1}>
+						     {this.state.message}
+						</p>
 				</div>
 				<div style={style.div4}>
 				<form>
