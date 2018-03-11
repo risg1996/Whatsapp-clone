@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import ContentSend from 'material-ui/svg-icons/content/send'
 import IconButton from 'material-ui/IconButton';
 
@@ -90,7 +89,7 @@ render(){
 	return(
 	<div >
          <div style={style.div1}>
-		        <button style={style.button}><img style={style.logo} src="http://i.imgur.com/TnNwdvV.png" alt='not found'/>
+		        <button style={style.button}><img style={style.logo} src="https://hasura.io/rstatic/resources/logo/Hasura-face-new.png" alt='not found'/>
 				<p style={style.p}>HPDF</p></button>
          </div>
         <div style={style.div2}>

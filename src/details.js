@@ -9,7 +9,7 @@ const style={
 	        paper:{
 				    width:'30%',
 					height:'wrap-content',
-					backgroundColor:'white',
+					backgroundColor:'#FFFFFF',
 					marginLeft:'35%'
 			      },
 		    form1:{

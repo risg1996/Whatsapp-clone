@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Details from './details';
 import Login from './login';
+import ActionFavorite from 'material-ui/svg-icons/action/favorite.js'
 
 
 const style={
@@ -79,7 +80,10 @@ class Middle extends React.Component{
 													 2. Verification of Mobile Number through OTP(One time password).<br/>
 													 3. Login Through the Mobile number and The password choosen in 1st step.</p>
 					    <p style={style.sh}>Login</p>
-							   <p style={style.content}>Start Chatting with Friends by login through the right Box.</p>
+							   <p style={style.content}>Start Chatting with Friends by login through the right Box.</p><br/><br/>
+							  <p style={{textAlign:'center',marginLeft:'500px',color:'#37C69E'}}><i>Made with 
+                             <ActionFavorite color="#F1948A" style={{marginLeft:'8px',marginRight:'8px'}}/> 
+							  by</i><span style={{color:'#FA8072'}}> Rishav Gautam</span></p>
 				  </div>
 				  <div style={style.div2}>
 				       <Login/>

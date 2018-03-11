@@ -38,7 +38,7 @@ const style={
 	       fontWeight:'500',
 		   fontSize:'large',
 		   letterSpacing:'3px',
-		   color:'white',
+		   color:'#FFFFFF',
 		   float:'left'
 	      },
 	middle:{

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Contacts from './contacts'
 import Paper from 'material-ui/Paper'
@@ -9,7 +8,7 @@ const style={
 	        paper:{
 				    width:'80%',
 					height:'85%',
-					backgroundColor:'white',
+					backgroundColor:'#FFFFFF',
 					marginLeft:'10%',
 					marginTop:'-80px',
 					display:'inline-block',

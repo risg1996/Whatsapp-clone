@@ -17,7 +17,7 @@ const style={
 	        paper:{
 				    width:'wrap-content',
 					height:'wrap-content',
-					backgroundColor:'white',
+					backgroundColor:'#FFFFFF',
 			      },
 		    form1:{
 				  border:'1px solid grey',

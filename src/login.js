@@ -9,7 +9,7 @@ const style={
 	        paper:{
 				    width:'wrap-content',
 					height:'wrap-content',
-					backgroundColor:'white',
+					backgroundColor:'#FFFFFF',
 			      },
 		    form1:{
 				  border:'1px solid grey',
@@ -48,16 +48,16 @@ const style={
 			    }
 }
 
+
+
 class Login extends React.Component{
 	
 state={
 	message: " "
-};
-	
+};	
 handleSubmit=(e)=>{
 	e.preventDefault();
 const mob = e.target.mob.value;
-const pass = e.target.psw.value;
 if(mob.length===10)
 {
 	ReactDOM.render(<Chat/>,document.getElementById('root'))
@@ -100,7 +100,7 @@ handleChange=(e)=>{
                           <label style={style.label}>Password</label><br/>
                           <input type="password" placeholder="Enter Password" name="psw" style={style.input} required /><br/><br/>
                            
-	                      <RaisedButton type="submit" label="Submit" labelColor='white'  fullWidth='true' 
+	                      <RaisedButton type="submit" label="Submit" labelColor='white'  fullWidth={true} 
 						                        buttonStyle={style.button1} style={style.but}  />
                          	   
 				   </div>
