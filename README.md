@@ -1,4 +1,5 @@
-Whatsapp-clone with basic functionality(Only UI) built using ReactJs and Material-ui.
+Whatsapp-clone with basic functionality built using ReactJs and Material-ui.
+Till now it have only UI, will be fully functional after some time. 
  
  To run it in your local machine
  type these commands in your command prompt-
