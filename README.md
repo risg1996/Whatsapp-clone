@@ -1,5 +1,6 @@
 Whatsapp-clone with basic functionality built using ReactJs and Material-ui.
-Till now it have only UI, will be fully functional after some time. 
+         
+ Till now it have only UI, will be fully functional after some time. 
  
  To run it in your local machine(You should have NodeJS installed in your PC)
  type these commands in your command prompt-
